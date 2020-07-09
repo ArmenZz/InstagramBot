@@ -1,0 +1,18 @@
+======================================================================================================================
+SINGLE ACCOUNT USE:
+1. SET YOUR LIKE,VIEW,COMMENT LINKS AND FOLLOW USER ID IN THE CONFIG.INI FILE
+2. ADD YOUR ACCOUNT ON THE FIRST SLOT IN CONFIG.INI
+3. SET YOUR PASSWORD IN MAIN
+======================================================================================================================
+MULTIPLE ACCOUNTS RECOMMENDATION:
+-SET ALL OF YOUR ACCOUNTS IN THE DESIGNATED SLOTS IN CONFIG.INI
+-HAVE THE SAME PASSWORD FOR ALL THE ACCOUNTS SO THAT THE PASSWORD IN MAIN CAN BE USED TO ITS FULL EXTENT
+-COPY AND CREATE AS MANY ibot.py FILES AS MANY ACCOUNTS YOU HAVE AND CHANGE THE ACCOUNT PROFILE USED FOR EACH SCRIPT IN MAIN
+
+eg. igbot1.py ------------------ insta = InstagramBot(config['ACCOUNTS']['account1'],'yourpassword')
+    igbot2.py ------------------ insta = InstagramBot(config['ACCOUNTS']['account2'],'yourpassword')
+    igbot3.py ------------------ insta = InstagramBot(config['ACCOUNTS']['account3'],'yourpassword')
+    
+-MAKE A BATCH FILE THAT RUNS ALL THE SCRIPTS AT THE SAME TIME
+update: i have included one such file
+======================================================================================================================
