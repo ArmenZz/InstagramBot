@@ -3,6 +3,7 @@ SINGLE ACCOUNT USE:
 1. SET YOUR LIKE,VIEW,COMMENT LINKS AND FOLLOW USER ID IN THE CONFIG.INI FILE
 2. ADD YOUR ACCOUNT ON THE FIRST SLOT IN CONFIG.INI
 3. SET YOUR PASSWORD IN MAIN
+run command: python igbot1.py
 ======================================================================================================================
 MULTIPLE ACCOUNTS RECOMMENDATION:
 -SET ALL OF YOUR ACCOUNTS IN THE DESIGNATED SLOTS IN CONFIG.INI
@@ -16,3 +17,6 @@ eg. igbot1.py ------------------ insta = InstagramBot(config['ACCOUNTS']['accoun
 -MAKE A BATCH FILE THAT RUNS ALL THE SCRIPTS AT THE SAME TIME
 update: i have included one such file
 ======================================================================================================================
+IMPORTANT INFO
+***** you will require chromedriver.exe to be able to run isolated versions of Chrome on your machine.
+***** recommended editor: Visual Studio Code (just install the python addons/extensions, add python to PATH and run the code)
